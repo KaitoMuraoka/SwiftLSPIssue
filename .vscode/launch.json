@@ -1,0 +1,22 @@
+{
+      "configurations": [
+            {
+                  "type": "lldb",
+                  "request": "launch",
+                  "args": [],
+                  "cwd": "${workspaceFolder:SwiftLSPIssue}",
+                  "name": "Debug SwiftLSPIssue",
+                  "program": "${workspaceFolder:SwiftLSPIssue}/.build/debug/SwiftLSPIssue",
+                  "preLaunchTask": "swift: Build Debug SwiftLSPIssue"
+            },
+            {
+                  "type": "lldb",
+                  "request": "launch",
+                  "args": [],
+                  "cwd": "${workspaceFolder:SwiftLSPIssue}",
+                  "name": "Release SwiftLSPIssue",
+                  "program": "${workspaceFolder:SwiftLSPIssue}/.build/release/SwiftLSPIssue",
+                  "preLaunchTask": "swift: Build Release SwiftLSPIssue"
+            }
+      ]
+}
